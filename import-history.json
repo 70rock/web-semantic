@@ -1,0 +1,345 @@
+[
+  {
+    "timestamp": "2025-05-31T04:22:15.633Z",
+    "searchTerm": "",
+    "limit": 50,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:45:02.427Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:47:55.339Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:50:10.604Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:51:15.387Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:51:32.377Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:51:40.652Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T04:52:55.498Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:04:05.442Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:07:19.755Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:11:45.155Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "message": "(0 , _lib_dbpedia_service__WEBPACK_IMPORTED_MODULE_1__.searchBolivianPeople) is not a function"
+  },
+  {
+    "timestamp": "2025-05-31T20:12:42.048Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:13:41.467Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:14:46.084Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:15:27.567Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:16:18.964Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:17:27.476Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:18:39.566Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:19:51.369Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:22:05.558Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:22:52.482Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:23:26.998Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:24:08.088Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:24:19.123Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T20:26:07.581Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T22:17:58.200Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T22:21:33.348Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T22:22:24.309Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 0
+  },
+  {
+    "timestamp": "2025-05-31T22:26:28.605Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Failed to parse URL from /api/sparql"
+  },
+  {
+    "timestamp": "2025-05-31T22:27:54.576Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error en la consulta SPARQL: Bad Request"
+  },
+  {
+    "timestamp": "2025-05-31T22:29:55.550Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error en la consulta SPARQL: Bad Request"
+  },
+  {
+    "timestamp": "2025-05-31T22:31:46.287Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error en la consulta SPARQL: Bad Request"
+  },
+  {
+    "timestamp": "2025-05-31T22:33:28.250Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Tipo de consulta no soportado"
+  },
+  {
+    "timestamp": "2025-05-31T22:35:13.962Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Tipo de consulta no soportado"
+  },
+  {
+    "timestamp": "2025-05-31T22:36:44.804Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example"
+  },
+  {
+    "timestamp": "2025-05-31T22:37:24.510Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example"
+  },
+  {
+    "timestamp": "2025-05-31T22:38:46.629Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-05-31T22:40:06.571Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-05-31T22:41:26.904Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-05-31T22:43:07.744Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "success",
+    "importedCount": 15
+  },
+  {
+    "timestamp": "2025-06-01T00:50:32.096Z",
+    "searchTerm": "",
+    "limit": 20,
+    "status": "failed",
+    "error": "No se encontraron entidades válidas para importar"
+  },
+  {
+    "timestamp": "2025-06-01T01:23:26.255Z",
+    "searchTerm": "",
+    "limit": 50,
+    "status": "failed",
+    "error": "No se encontraron entidades válidas para importar"
+  },
+  {
+    "timestamp": "2025-06-01T01:42:47.855Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "success",
+    "importedCount": 3
+  },
+  {
+    "timestamp": "2025-06-01T01:47:52.692Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-06-01T01:49:27.764Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-06-01T01:51:17.136Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-06-01T01:53:02.842Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-06-01T01:54:22.211Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "failed",
+    "error": "Error al parsear tripleta: <http://example.org/personasHistoricasBolivianas#abd_n_reyes> phb:resumen \"Abdón Reyes Cardozo (Tarija, Bolivia; 7 de noviembre de 1981), más conocido como Abdón Reyes, es un exfutbolista boliviano."
+  },
+  {
+    "timestamp": "2025-06-01T01:57:14.757Z",
+    "searchTerm": "Bolívar",
+    "limit": 5,
+    "status": "success",
+    "importedCount": 3
+  }
+]

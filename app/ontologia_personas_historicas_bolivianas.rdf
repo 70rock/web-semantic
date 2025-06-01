@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/personasHistoricasBolivianas#"
+     xml:base="http://example.org/personasHistoricasBolivianas"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://example.org/personasHistoricasBolivianas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#imagenReferencia -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/personasHistoricasBolivianas#imagenReferencia">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <rdfs:label xml:lang="es">imagenReferencia</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#lugarFallecimiento -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/personasHistoricasBolivianas#lugarFallecimiento">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:label xml:lang="es">lugarFallecimiento</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#lugarNacimiento -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/personasHistoricasBolivianas#lugarNacimiento">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:label xml:lang="es">lugarNacimiento</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#nacionalidad -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/personasHistoricasBolivianas#nacionalidad">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:label xml:lang="es">nacionalidad</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#ocupacion -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/personasHistoricasBolivianas#ocupacion">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Agent"/>
+        <rdfs:label xml:lang="es">ocupacion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#fechaFallecimiento -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/personasHistoricasBolivianas#fechaFallecimiento">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="es">fechaFallecimiento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#fechaNacimiento -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/personasHistoricasBolivianas#fechaNacimiento">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="es">fechaNacimiento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/personasHistoricasBolivianas#nombre">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">nombre</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#resumen -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/personasHistoricasBolivianas#resumen">
+        <rdfs:domain rdf:resource="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">resumen</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Agent -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Agent"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Country -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Country"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Person -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Person"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Place -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Place"/>
+    
+
+
+    <!-- http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana -->
+
+    <owl:Class rdf:about="http://example.org/personasHistoricasBolivianas#PersonaHistoricaBoliviana">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:label xml:lang="es">Persona Histórica Boliviana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Image -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Image"/>
+
+    <!-- Instancias de Personas Históricas -->
+    <PersonaHistoricaBoliviana rdf:about="http://example.org/personasHistoricasBolivianas#SimonBolivar">
+        <nombre>Simón Bolívar</nombre>
+        <resumen>Conocido como El Libertador, fue una de las figuras más destacadas de la emancipación americana frente al Imperio español. Contribuyó de manera decisiva a la independencia de Bolivia y otros países sudamericanos.</resumen>
+        <fechaNacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-07-24</fechaNacimiento>
+        <fechaFallecimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-12-17</fechaFallecimiento>
+        <lugarNacimiento rdf:resource="http://dbpedia.org/resource/Caracas"/>
+        <lugarFallecimiento rdf:resource="http://dbpedia.org/resource/Santa_Marta"/>
+        <nacionalidad rdf:resource="http://dbpedia.org/resource/Venezuela"/>
+        <ocupacion rdf:resource="http://dbpedia.org/resource/Military_leader"/>
+    </PersonaHistoricaBoliviana>
+
+    <PersonaHistoricaBoliviana rdf:about="http://example.org/personasHistoricasBolivianas#AntonioJoseDeSucre">
+        <nombre>Antonio José de Sucre</nombre>
+        <resumen>Conocido como el Gran Mariscal de Ayacucho, fue un político, estadista y militar venezolano, prócer de la independencia americana. Fue el primer presidente de Bolivia.</resumen>
+        <fechaNacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1795-02-03</fechaNacimiento>
+        <fechaFallecimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-06-04</fechaFallecimiento>
+        <lugarNacimiento rdf:resource="http://dbpedia.org/resource/Cumaná"/>
+        <lugarFallecimiento rdf:resource="http://dbpedia.org/resource/Berrucos"/>
+        <nacionalidad rdf:resource="http://dbpedia.org/resource/Venezuela"/>
+        <ocupacion rdf:resource="http://dbpedia.org/resource/Military_leader"/>
+    </PersonaHistoricaBoliviana>
+
+    <PersonaHistoricaBoliviana rdf:about="http://example.org/personasHistoricasBolivianas#AndresDeSantaCruz">
+        <nombre>Andrés de Santa Cruz</nombre>
+        <resumen>Fue un militar y político boliviano, presidente de Bolivia y de la Confederación Perú-Boliviana. Es considerado uno de los más importantes estadistas de la historia boliviana.</resumen>
+        <fechaNacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1792-12-05</fechaNacimiento>
+        <fechaFallecimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-09-25</fechaFallecimiento>
+        <lugarNacimiento rdf:resource="http://dbpedia.org/resource/La_Paz"/>
+        <lugarFallecimiento rdf:resource="http://dbpedia.org/resource/Beauvoir-sur-Mer"/>
+        <nacionalidad rdf:resource="http://dbpedia.org/resource/Bolivia"/>
+        <ocupacion rdf:resource="http://dbpedia.org/resource/Politician"/>
+    </PersonaHistoricaBoliviana>
+
+    <PersonaHistoricaBoliviana rdf:about="http://example.org/personasHistoricasBolivianas#JuanaAzurduy">
+        <nombre>Juana Azurduy de Padilla</nombre>
+        <resumen>Fue una patriota y guerrillera del Alto Perú que luchó por la independencia de Bolivia y Argentina. Es considerada una heroína de la independencia americana.</resumen>
+        <fechaNacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1780-07-12</fechaNacimiento>
+        <fechaFallecimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-05-25</fechaFallecimiento>
+        <lugarNacimiento rdf:resource="http://dbpedia.org/resource/Chuquisaca"/>
+        <lugarFallecimiento rdf:resource="http://dbpedia.org/resource/Sucre"/>
+        <nacionalidad rdf:resource="http://dbpedia.org/resource/Bolivia"/>
+        <ocupacion rdf:resource="http://dbpedia.org/resource/Military_leader"/>
+    </PersonaHistoricaBoliviana>
+
+    <PersonaHistoricaBoliviana rdf:about="http://example.org/personasHistoricasBolivianas#EduardoAvaroa">
+        <nombre>Eduardo Abaroa</nombre>
+        <resumen>Fue un héroe boliviano de la Guerra del Pacífico. Su sacrificio en la Batalla de Calama lo convirtió en uno de los mártires más importantes de Bolivia.</resumen>
+        <fechaNacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1838-10-13</fechaNacimiento>
+        <fechaFallecimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-23</fechaFallecimiento>
+        <lugarNacimiento rdf:resource="http://dbpedia.org/resource/San_Pedro_de_Atacama"/>
+        <lugarFallecimiento rdf:resource="http://dbpedia.org/resource/Calama"/>
+        <nacionalidad rdf:resource="http://dbpedia.org/resource/Bolivia"/>
+        <ocupacion rdf:resource="http://dbpedia.org/resource/Military_leader"/>
+    </PersonaHistoricaBoliviana>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
