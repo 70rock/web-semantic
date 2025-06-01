@@ -21,7 +21,7 @@ export default function GoogleTranslateWidget() {
       new window.google.translate.TranslateElement(
         {
           pageLanguage: "es",
-          includedLanguages: "en,es",
+          includedLanguages: "en,es,fr",
           // @ts-ignore
           layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
         },
