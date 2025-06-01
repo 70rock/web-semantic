@@ -92,6 +92,13 @@ export async function POST(request: Request) {
     console.log("Tipo de consulta detectado:", queryUpper)
 
     if (queryUpper.includes("INSERT DATA")) {
+      // Solo permitir escritura en desarrollo
+      if (process.env.NODE_ENV === "production") {
+        return NextResponse.json(
+          { error: "La escritura en la ontología local no está permitida en producción (solo lectura)" },
+          { status: 403 }
+        )
+      }
       
       const insertMatch = queryTrimmed.match(/INSERT\s+DATA\s*{([^}]*)}/i)
       if (insertMatch) {
